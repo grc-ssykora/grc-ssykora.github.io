@@ -60,34 +60,37 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricksbg.jpg) 
+  background: url(images/blackandwhitepaint.jpg) 
 	center center fixed no-repeat;
     background-size: cover;
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 255, 255, .40);
+    /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: none;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: none;
 	text-align: center;
 }
 
 h1 {
-	font-family: serif;
-    font-weight:200;
+	font-family: playfair display,serif; 
+    font-weight: 400;
+    font-style: normal;
 	font-size: 2em;
+    font-kerning: normal;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #660000;
 }
 
 h2 {
@@ -111,7 +114,7 @@ nav{
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
+    border: none;
     border-width: 3px 0;
     text-align:center;
     margin-top: 2em;
@@ -127,12 +130,14 @@ nav a{
 }
 
 a{
-    color:#444;
+    font-family: playfair display, serif;
+    font-size: 1.2em;
+    color:#cc3333;
     text-decoration: none;
     font-weight: bold
 }
 
 a:hover{
-    color:black;
-    background:pink;
+    color:#660000;
+    
 }
