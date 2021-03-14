@@ -63,11 +63,11 @@ html, body {
   background: url(images/blackandwhitepaint.jpg) 
 	center center fixed no-repeat;
     background-size: cover;
-	
 }
 
 .center {
     width: 50%;
+    height: 90%;
 	padding: 2%;
     margin: 10px auto;
  	background: rgba(255, 255, 255, .80);
@@ -85,13 +85,15 @@ html, body {
 }
 
 h1 {
-	font-family: bebas neue,serif; 
+	font-family: bebas neue, sans-serif; 
+    /* bold sans serif font */
     font-weight: 400;
     font-style: normal;
 	font-size: 2em;
     font-kerning: normal;
     margin: 0px auto 10px auto;
     color: #660000;
+    /* crimson or dark red color */ 
 }
 
 h2 {
@@ -101,6 +103,7 @@ h2 {
     color: #fff;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+    /*unused currently*/
 }
 
 p {
@@ -108,6 +111,7 @@ p {
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
+    /*unused currently*/
 }
     
 nav{
@@ -119,6 +123,7 @@ nav{
     border-width: 3px 0;
     text-align:center;
     margin-top: 2em;
+    /*no text using nav settings currently*/
 } 
 
 nav li{
@@ -134,11 +139,12 @@ a{
     font-family: bebas neue, serif;
     font-size: 1.2em;
     color:#262626;
+    /*dark grey almost black color*/
     text-decoration: none;
     font-weight: bold
 }
 
 a:hover{
     color:#cc3333;
-    
+    /*makes hover color lighter, carmine red*/
 }
