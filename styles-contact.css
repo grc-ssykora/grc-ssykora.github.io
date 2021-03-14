@@ -67,10 +67,10 @@ html, body {
 }
 
 .center {
-    width: 80%;
+    width: 50%;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(255, 255, 255, .40);
+    margin: 50px auto;
+ 	background: rgba(255, 255, 255, .80);
     /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: none;
@@ -78,13 +78,14 @@ html, body {
 
    
 #logo {
-    margin-bottom: 16px;
+    margin-bottom: 55px;
+    margin-top: 10px;
 	border: none;
 	text-align: center;
 }
 
 h1 {
-	font-family: playfair display,serif; 
+	font-family: bebas neue,serif; 
     font-weight: 400;
     font-style: normal;
 	font-size: 2em;
@@ -130,14 +131,14 @@ nav a{
 }
 
 a{
-    font-family: playfair display, serif;
+    font-family: bebas neue, serif;
     font-size: 1.2em;
-    color:#cc3333;
+    color:#262626;
     text-decoration: none;
     font-weight: bold
 }
 
 a:hover{
-    color:#660000;
+    color:#cc3333;
     
 }
