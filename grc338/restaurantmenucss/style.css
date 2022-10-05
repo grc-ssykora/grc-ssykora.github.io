@@ -7,82 +7,65 @@ img {
 }
 
 body {
-	background-color:#8AABAB; /* Not totally white. */
-	color:#454545;  /* Not totally black. */
+	background-color: #FBFCFC; /* Not totally white. */
+	color:#191919;  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
-    font:sans-serif;
-	font-family: open-sans;
+	font-family:sans-serif;
 }
 
 h1 {
-	background-color:#E0F6FA;
-	color:#8AABAB; /* Same as body background. */
-    font:serif;
-    font-family:garamond;
-    font-size:6rem;
-    color:blue;
-    font-weight:bold;
-    text-transform:uppercase;
-	padding: 1rem,1rem,1rem; /* You want three values. */
+	background-color:#9CA5AC;
+	color: #FBFCFC; /* Same as body background. */
+	font-size: 6rem;
+	padding: 5rem 3rem 1rem; /* You want three values. */
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 /* You’ll need to add a span element to your HTML. */
 h1 span { 	
-	font-family:garamond;
-	font-style: italic;
+	font-family:serif;
+	font-style:italic;
 	font-weight: none;
-	text-transform: none;
+	text-transform: lowercase;
 }
 
 h2 {
-    font:serif;
-    font-family:garamond;
-    font-size:4rem;
-    font-style:italic;
-    font-weight:none;
-    color:#454545;
-	background-color:#8AABAB;
-	padding: 2em;
+	background-color: #9CA5AC;
+	color:  #FBFCFC;
+	font-size: 3rem;
+	padding: 1rem;
+	font-family: serif;
+	font-weight: bold;
 }
 
 h3 {
-    margin:2.5rem,0.5rem,0.5rem,0rem;
-    font:serif;
-    font-family:garamond;
-    font-size:3rem;
-    font-weight:bold;
-    color:black;
-	margin:2rem,0.5rem,0.5rem; /*Three values again. You got the idea.*/
-	padding-top: 2em;
-	letter-spacing: 0.1rem; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: 2em,dotted,#454545;
+	margin: 3rem 1rem 1rem; /*Three values again. You got the idea.*/
+	padding-top: 1rem;
+	font-size: 1rem;
+	color:#DE2C2C;
+	font-weight: bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: 3px solid #DE2C2C;
 }
 
 h4 {
-    margin:2rem,0rem,0rem;
-    font:sans-serif;
-    font:open-sans;
-    font-size:1.5rem;
-    font-weight:bold;
-    color:#454545;
-}
-
-p{
-    font-size:12pt;
+	font-weight: bold;
 }
 
 p.description {
-    font-size:1em;
-    font:sans-serif;
-    font-family:open-sans;  
-    color:#7E7E7E;
+	font-style: italic;
 }
 
 p.price {
-	font-weight:italic;
-    color:#2F527E;
+	color: #DE2C2C;
 }
 
 ul {
-	margin:2em;
+	margin: 1rem 0.5rem 4.5rem;
+}
+
+li { 
+	margin: 1rem 0.5rem;
 }
