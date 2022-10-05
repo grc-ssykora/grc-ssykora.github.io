@@ -1,0 +1,51 @@
+/*CSS DOCUMENT*/
+
+body{
+    background-color:#E0F6FA;
+}
+
+p {
+    font-size:12pt;  
+    font:sans-serif;
+    font:open-sans;  
+    color:#7E7E7E;
+}
+
+h1{
+    font:serif;
+    font:garamond;
+    font-size:6rem;
+    color:blue;
+    font-weight:bold;
+}
+
+h2{
+    font:serif;
+    font:garamond;
+    font-size:4rem;
+    font-weight:italic;
+    color:#454545;
+}
+
+h3{
+    margin:2.5rem,0rem,0rem,0rem;
+    font:serif;
+    font:garamond;
+    font-size:3rem;
+    font-weight:bold;
+    color:black;
+}
+
+h4{ 
+    margin:2rem,0rem,0rem,0rem;
+    font:sans-serif;
+    font:open-sans;
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#454545;
+}
+
+p.price {
+    font-weight:italic;
+    color:#2F527E;
+}
