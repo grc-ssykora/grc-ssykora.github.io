@@ -1,0 +1,122 @@
+/*CSS document*/
+
+body {
+    background-color:#F5F6F1;
+    max-width:120em;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display:block;
+    margin:1em 0em 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav{
+    text-align:center;
+}
+
+nav ul li{
+    display:inline;
+    padding:2em 0.3em;
+    font-family:bilo,sans-serif;
+    font-weight:600;
+    font-size:12pt;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#88987E;
+}
+
+nav ul li a:hover{
+    color:#495C49;
+}
+
+article{
+    padding:0em 1em 4em;
+}
+
+h1{
+    font-family:gyst-variable, sans-serif;
+    font-weight:700;
+    font-size:32pt;
+    color:#111A17;
+}
+
+h2,h3{
+    font-family:gyst-variable, sans-serif;
+    color:#111A17;
+    line-height:1.2em;
+}
+
+h2{
+    font-weight:550;
+    font-size:28pt;
+    margin:0.75em 0em 0.2em;
+}
+
+h3{
+    font-weight:400;
+    font-size:20pt;
+    padding:0em;
+    margin:0.5em 0em 0em;
+}
+
+p{
+    font-family:bilo, sans-serif;
+    font-weight:500;
+    font-size: 12pt;
+    color:#111A17;
+    text-decoration:none;
+    line-height:1.5em;
+    margin:0.2em 0em 1.5em;
+}
+
+figcaption{
+    font-family:bilo, sans-serif;
+    font-size:10pt;
+    font-weight:400;
+    color:#111A17;
+}
+
+section.hasimage{
+    padding:0em 1em 0.5em;
+}
+
+section.noimage{
+    padding:0em 1em 1em;
+}
+
+section.main{
+    padding:0em 1em 0.5em;
+}
+
+footer{
+    margin:1em;
+}
+
+figcaption{
+    margin-bottom:1em;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+article p{
+    margin:0em 0em 1em;
+}
