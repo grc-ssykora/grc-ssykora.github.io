@@ -57,11 +57,11 @@ h1{
     font-weight:700;
     font-size:32pt;
     color:#111A17;
-    width:4em;
+    width:7em;
     margin:1em auto 0.2em;
 }
 
-h2,h3,h4{
+h2,h3,h4,h3.button{
     font-family:gyst-variable, sans-serif;
     color:#111A17;
     line-height:1.2em;
@@ -137,6 +137,10 @@ main.photogallery{
     padding-bottom: calc(72% + 3em);
 }
 
+main.photogallery, nav.photos{
+    margin:0 1em;
+}
+
 figure.gallery{
     margin: 0;
     width: calc(100%-2em);
@@ -200,6 +204,10 @@ h2.gallery{
     text-align:center;
 }
 
+ul.check li label{
+    padding-left:0.5em;
+}
+
 div.personal-info ul li {
 	display: flex;
 	flex-wrap:wrap;
@@ -258,6 +266,10 @@ main.form{
         margin:0em auto;
     }
 
+    section.checkbox, section.fill{
+        margin:0 2em;
+    }
+
     main{
         display:grid;
         grid-template-columns: repeat(3,1fr);
@@ -307,4 +319,36 @@ main.form{
     section.checkbox, section.fill{
         margin:0 2em;
     }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body{
+        background-color:#282A2A;
+    }
+
+    h2,h3,h4,p,figcaption,ul li{
+        color:#F5F6F1;
+    }
+
+    nav ul li a:hover,figcaption.gallery{
+        color:#BFC7B8;
+    }
+
+    input.fill,input.check{
+        border-color:#BFC7B8;
+    }
+
+    button:hover{
+        background-color:#BFC7B8;
+    }
+
+    h1 {  
+        background-image: url("logo-dark.png");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+    }  
+
+     h1 img {  
+        opacity: 0;  
+    }  
 }
