@@ -36,7 +36,7 @@ nav ul li{
     padding:2em 0.5em;
     font-family:bilo,sans-serif;
     font-weight:600;
-    font-size:12pt;
+    font-size:1em;
 }
 
 nav ul li a{
@@ -55,7 +55,7 @@ article{
 h1{
     font-family:gyst-variable, sans-serif;
     font-weight:700;
-    font-size:32pt;
+    font-size:3em;
     color:#111A17;
     width:7em;
     margin:1em auto 0.2em;
@@ -69,31 +69,32 @@ h2,h3,h4,h3.button{
 
 h2{
     font-weight:550;
-    font-size:28pt;
+    font-size:2.3em;
     margin:0.75em 0em 0.2em;
+    padding-right:4em;
 }
 
 h3{
     font-weight:400;
-    font-size:20pt;
+    font-size:1.6em;
     padding:0em 0em 0.2em;
     margin:0.5em 0em 0em;
 }
 
 h4{
-    font-size:14pt;
+    font-size:1.15em;
 }
 
 ul li{
     font-family:bilo;
     font-weight:400;
-    font-size:15pt;
+    font-size:1.25em;
 }
 
 p{
     font-family:bilo, sans-serif;
     font-weight:500;
-    font-size: 12pt;
+    font-size: 1em;
     color:#111A17;
     text-decoration:none;
     line-height:1.5em;
@@ -102,7 +103,7 @@ p{
 
 figcaption{
     font-family:bilo, sans-serif;
-    font-size:10pt;
+    font-size:0.8em;
     font-weight:400;
     color:#111A17;
 }
@@ -194,7 +195,7 @@ button:hover{
 
 figcaption.gallery{
     font-family:gyst-variable, sans-serif;
-    font-size:20pt;
+    font-size:1.6em;
     color:#495C49;
     line-height:1.2em;
 }
@@ -219,7 +220,7 @@ div.personal-info ul li input[type="email"],
 div.personal-info ul li select {
     font-family:bilo, sans-serif;
     font-weight:400;
-    font-size: 12pt;
+    font-size: 1em;
     text-decoration:none;
     margin-bottom:0.75em;
 	flex: 4 0 28em;
@@ -307,7 +308,7 @@ main.form{
     }
 
     h2,h3,p{
-        max-width:55em;
+        max-width:40em;
     }
 }
 
